@@ -247,7 +247,7 @@
   },
     {
         "name": "Progressive Bomb Glove",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "Bomb Glove",
@@ -276,7 +276,7 @@
   },
     {
         "name": "Progressive Pyrocitor",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "Pyrocitor",
@@ -305,7 +305,7 @@
   },
     {
         "name": "Progressive Blaster",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "Blaster",
@@ -334,7 +334,7 @@
   },
     {
         "name": "Progressive Glove of Doom",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "Glove of Doom",
@@ -363,7 +363,7 @@
   },
     {
         "name": "Progressive Mine Glove",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "Mine Glove",
@@ -398,7 +398,7 @@
   },
     {
         "name": "Progressive Suck Canon",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "SuckC anon",
@@ -427,7 +427,7 @@
   },
     {
         "name": "Progressive Devastator",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "Devastator",
@@ -468,7 +468,7 @@
   },
     {
         "name": "Progressive Decoy Glove",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "Decoy Glove",
@@ -503,7 +503,7 @@
   },
     {
         "name": "Progressive Tesla Claw",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "Tesla Claw",
@@ -532,7 +532,7 @@
   },
     {
         "name": "Progressive Morph-o-Ray",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "name": "Morph-o-Ray",
