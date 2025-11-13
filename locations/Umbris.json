@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Umbris - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Lighthouse puzzle - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "umbris_gold_bolt_lighthouse_puzzle"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Umbris",
+                        "x": "224",
+                        "y": "660",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Jumping Down - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "umbris_gold_bolt_jumping_down"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Umbris",
+                        "x": "1734",
+                        "y": "1392",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Defeat the Snagglebeast - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "umbris_defeat_the_snagglebeast"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Umbris",
+                "x": "1342",
+                "y": "1490",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Umbris",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lighthouse puzzle",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Umbris",
+                        "x": "224",
+                        "y": "660",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Jumping Down",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Umbris",
+                        "x": "1734",
+                        "y": "1392",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Defeat the Snagglebeast",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Umbris",
+                "x": "1342",
+                "y": "1490",
+                "size": 6
+            }
+        ]
+    }
+]

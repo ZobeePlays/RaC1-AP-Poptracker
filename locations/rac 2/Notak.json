@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Notak",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["notakcoordinates"],
+    "children": [
+      {
+        "name": "Behind Building",
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Notak",
+            "x": "382",
+            "y": "529"
+          }
+        ]
+      },
+      {
+        "name": "Promenade Sign",
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Notak",
+            "x": "81",
+            "y": "538"
+          }
+        ]
+      },
+      {
+        "name": "Timed Dynamo",
+        "access_rules": ["$notak_timed_dynamo"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Notak",
+            "x": "371",
+            "y": "367"
+          }
+        ]
+      },
+      {
+        "name": "Promenade End",
+        "sections": [
+          {
+            "name": "Nanotech Boost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Notak",
+            "x": "229",
+            "y": "505"
+          }
+        ]
+      },
+      {
+        "name": "Top of Pier",
+        "access_rules": ["$notak_top_pier_telescreen"],
+        "sections": [
+          {
+            "name": "Telescreen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Notak",
+            "x": "408",
+            "y": "343"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Worker Bots",
+        "access_rules": ["$notak_worker_bots"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Notak",
+        "x": "665",
+        "y": "514"
+      }
+    ]
+  }
+]

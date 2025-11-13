@@ -1,0 +1,204 @@
+[
+    {
+        "name": "Blarg - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "2,500 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "blarg_vendor_2,500"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "2219",
+                        "y": "1441",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Outside - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "blarg_gold_bolt_outside"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cages - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "blarg_gold_bolt_cages"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "601",
+                        "y": "2418",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Outside as Clank - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "blarg_outside_as_clank"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Destroy the Warship - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "blarg_destroy_the_warship"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Explore the Space Station - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "blarg_explore_the_space_station"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Blarg",
+                "x": "1201",
+                "y": "1870",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Blarg",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "2,500",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "2219",
+                        "y": "1441",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Outside",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cages",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Blarg",
+                        "x": "601",
+                        "y": "2418",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Outside as Clank",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Destroy the Warship",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Explore the Space Station",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Blarg",
+                "x": "1201",
+                "y": "1870",
+                "size": 6
+            }
+        ]
+    }
+]

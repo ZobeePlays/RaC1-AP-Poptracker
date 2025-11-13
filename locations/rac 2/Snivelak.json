@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Snivelak",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["snivelakcoordinates"],
+    "children": [
+      {
+        "name": "Dynamo Platforms",
+        "access_rules": ["$snivelak_dynamo_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snivelak",
+            "x": "157",
+            "y": "505"
+          }
+        ]
+      },
+      {
+        "name": "Swingshot Tower",
+        "access_rules": ["$snivelak_swingshot_tower_nt"],
+        "sections": [
+          {
+            "name": "Nanotech Boost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snivelak",
+            "x": "87",
+            "y": "710"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Rescue Angela",
+        "access_rules": ["$snivelak_rescue_angelak"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Snivelak",
+        "x": "704",
+        "y": "387"
+      }
+    ]
+  }
+]

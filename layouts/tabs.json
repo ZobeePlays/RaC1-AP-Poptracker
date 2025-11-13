@@ -1,0 +1,187 @@
+{
+  "tabbed_maps_horizontal": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Solana",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Solana"
+          ]
+        }
+      },
+      {
+        "title": "All Levels",
+        "content": {
+          "type": "map",
+          "maps": [
+            "All Levels"
+          ]
+        }
+      },
+      {
+        "title": "Novalis",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Oozla"
+          ]
+        }
+      },
+      {
+        "title": "Kerwan",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Maktar"
+          ]
+        }
+      },
+      {
+        "title": "Aridia",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Endako"
+          ]
+        }
+      },
+      {
+        "title": "Eudora",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Barlow"
+          ]
+        }
+      },
+      {
+        "title": "Blarg Station",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Notak"
+          ]
+        }
+      },
+      {
+        "title": "Rilgar",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Siberius"
+          ]
+        }
+      },
+      {
+        "title": "Umbris",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Tabora"
+          ]
+        }
+      },
+      {
+        "title": "Batalia",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Dobbo"
+          ]
+        }
+      },
+      {
+        "title": "Orxon",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Joba"
+          ]
+        }
+      },
+      {
+        "title": "Gaspar",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Todano"
+          ]
+        }
+      },
+      {
+        "title": "Pokitaru",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Boldan"
+          ]
+        }
+      },
+      {
+        "title": "Hoven",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Aranos"
+          ]
+        }
+      },
+      {
+        "title": "Gemlik Base",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Snivelak"
+          ]
+        }
+      },
+      {
+        "title": "Oltanis",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Smolg"
+          ]
+        }
+      },
+      {
+        "title": "Quartu",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Damosel"
+          ]
+        }
+      },
+      {
+        "title": "Kalebo III",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Grelbin"
+          ]
+        }
+      },
+      {
+        "title": "Drek's Fleet",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Yeedil"
+          ]
+        }
+      },
+      {
+        "title": "Veldin",
+        "content": {
+          "type": "map",
+          "maps": [
+            "Veldin"
+          ]
+        }
+      }
+    ]
+  }
+}

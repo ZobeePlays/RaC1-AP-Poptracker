@@ -1,0 +1,406 @@
+[
+    {
+        "name": "Oltanis - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "40,000 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oltanis_vendor_40,000"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "1615",
+                        "y": "2190",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Grindrail path - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Scrap Merchant - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oltanis_grindrail_path_scrap_merchant"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "1100",
+                        "y": "2119",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Magneboot path - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Buy the PDA from Steve - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oltanis_magneboot_path_buy_the_pda_from_steve"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "263",
+                        "y": "309",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Swingshot path - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Search the city - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oltanis_swingshot_path_search_the_city"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "917",
+                        "y": "330",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "children": [
+                    {
+                        "name": "Grindrail path - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Swingshot Upper Ledge - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "oltanis_gold_bolt_grindrail_path_swingshot_upper_ledge"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oltanis",
+                                "x": "1870",
+                                "y": "1245",
+                                "size": 12
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Magneboot path - hint",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Ledge near Bomber - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "oltanis_gold_bolt_magneboot_path_ledge_near_bomber"
+                                ],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Ledge hang - hint",
+                                "access_rules": [],
+                                "visibility_rules": [
+                                    "oltanis_gold_bolt_magneboot_path_ledge_hang"
+                                ],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oltanis",
+                                "x": "1712",
+                                "y": "1068",
+                                "size": 12
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "All Objectives - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "oltanis_gold_bolt_all_objectives"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "243",
+                        "y": "2128",
+                        "size": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Oltanis",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "40,000",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "1615",
+                        "y": "2190",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Grindrail path",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Scrap Merchant",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "1100",
+                        "y": "2119",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Magneboot path",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Buy the PDA from Steve",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "263",
+                        "y": "309",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Swingshot path",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Search the city",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "917",
+                        "y": "330",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Grindrail path",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Swingshot Upper Ledge",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oltanis",
+                                "x": "1870",
+                                "y": "1245",
+                                "size": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Magneboot path",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Ledge near Bomber",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Ledge hang",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Oltanis",
+                                "x": "1712",
+                                "y": "1068",
+                                "size": 6
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "All Objectives",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Oltanis",
+                        "x": "243",
+                        "y": "2128",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

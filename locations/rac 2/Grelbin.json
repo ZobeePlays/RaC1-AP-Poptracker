@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Grelbin",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["grelbincoordinates"],
+    "children": [
+      {
+        "name": "Mystic More Moonstones",
+        "access_rules": ["glider,infiltrator"],
+        "sections": [
+          {
+            "name": "Hypnomatic Part"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Grelbin",
+            "x": "392",
+            "y": "560"
+          }
+        ]
+      },
+      {
+        "name": "Ice Plains",
+        "access_rules": ["glider,infiltrator"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Grelbin",
+            "x": "543",
+            "y": "361"
+          }
+        ]
+      },
+      {
+        "name": "Underwater Tunnel",
+        "access_rules": ["hypnomatic"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Grelbin",
+            "x": "523",
+            "y": "676"
+          }
+        ]
+      },
+      {
+        "name": "Yeti Cave",
+        "access_rules": ["glider,infiltrator,hypnomatic"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Grelbin",
+            "x": "410",
+            "y": "660"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Find Angela",
+        "access_rules": ["$grelbin_find_angela"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Grelbin",
+        "x": "543",
+        "y": "617"
+      }
+    ]
+  }
+]

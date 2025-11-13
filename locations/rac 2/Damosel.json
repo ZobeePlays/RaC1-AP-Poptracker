@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Damosel",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["damoselcoordinates"],
+    "children": [
+      {
+        "name": "Train Rails",
+        "access_rules": ["grindboots"],
+        "sections": [
+          {
+            "name": "Hypnomatic Part"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Damosel",
+            "x": "816",
+            "y": "503"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Mothership",
+        "sections": [
+          {
+            "name": "Mapper"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Damosel",
+            "x": "860",
+            "y": "1062"
+          }
+        ]
+      },
+      {
+        "name": "Frozen Fountain",
+        "access_rules": ["$can_improved_jump,swingshot,thermanator,grindboots"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Damosel",
+            "x": "757",
+            "y": "575"
+          }
+        ]
+      },
+      {
+        "name": "Pyramid",
+        "access_rules": ["$can_improved_jump,swingshot,hypnomatic"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Damosel",
+            "x": "607",
+            "y": "449"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Hypnotist",
+        "access_rules": ["$can_improved_jump,swingshot,thermanator,hpfull"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Damosel",
+        "x": "1082",
+        "y": "359"
+      }
+    ]
+  }
+]

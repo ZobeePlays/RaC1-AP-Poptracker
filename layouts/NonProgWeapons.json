@@ -1,0 +1,62 @@
+{
+  "nonprog_weapon_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "1, 1",
+            "h_alignment": "left",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_height": 30,
+            "item_width": 30,
+            "rows": [
+              [
+                "BombGlove",
+                "Pyrocitor",
+                "Blaster",
+                "GloveofDoom",
+                "MineGlove"
+              ],
+              [
+                "Taunter",
+                "SuckCanon",
+                "Devastator",
+                "Walloper",
+                "Visibomb"
+              ],
+              [
+                "DecoyGlove",
+                "DroneDevice",
+                "TeslaClaw",
+                "Morph-o-Ray",
+                "RYNO"
+              ],
+              [
+                "GoldBombGlove",
+                "GoldPyrocitor",
+                "GoldBlaster",
+                "GoldGloveofDoom",
+                "GoldMineGlove"
+              ],
+              [
+                "GoldDecoyGlove",
+                "GoldSuckCanon",
+                "GoldDevastator",
+                "GoldTeslaClaw",
+                "GoldMorph-o-Ray"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

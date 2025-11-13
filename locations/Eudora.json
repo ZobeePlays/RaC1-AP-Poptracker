@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Eudora - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "7,500 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "eudora_vendor_7,500"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eudora",
+                        "x": "610",
+                        "y": "2177",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Robot Lieutenant - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "eudora_robot_lieutenant"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Explore the Mills - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "eudora_explore_the_mills"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "eudora_gold_bolt"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Eudora",
+                "x": "337",
+                "y": "554",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Eudora",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7,500",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eudora",
+                        "x": "610",
+                        "y": "2177",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Robot Lieutenant",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Explore the Mills",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Gold Bolt",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Eudora",
+                "x": "337",
+                "y": "554",
+                "size": 6
+            }
+        ]
+    }
+]

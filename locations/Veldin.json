@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Veldin - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Taunter the horny toad - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "veldin_gold_bolt_taunter_the_horny_toad"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Platforms - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "veldin_gold_bolt_platforms"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grindrail - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "veldin_gold_bolt_grindrail"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Veldin",
+                        "x": "112",
+                        "y": "487",
+                        "size": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Veldin",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Taunter the horny toad",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Platforms",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grindrail",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Veldin",
+                        "x": "112",
+                        "y": "487",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

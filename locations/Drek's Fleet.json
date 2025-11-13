@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Drek's Fleet - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Water section - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "drek's_fleet_gold_bolt_water_section"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidepath with robot guards - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "drek's_fleet_gold_bolt_sidepath_with_robot_guards"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Drek's Fleet",
+                        "x": "925",
+                        "y": "100",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Flagship - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "drek's_fleet_flagship"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Water section - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "drek's_fleet_water_section"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Drek's Fleet",
+                "x": "1687",
+                "y": "1536",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Drek's Fleet",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Water section",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sidepath with robot guards",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Drek's Fleet",
+                        "x": "925",
+                        "y": "100",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Flagship",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Water section",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Drek's Fleet",
+                "x": "1687",
+                "y": "1536",
+                "size": 6
+            }
+        ]
+    }
+]

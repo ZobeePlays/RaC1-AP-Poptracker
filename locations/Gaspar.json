@@ -1,0 +1,176 @@
+[
+    {
+        "name": "Gaspar - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "7,500 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "gaspar_vendor_7,500"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "1099",
+                        "y": "197",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Destroy the Bombers - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "gaspar_gold_bolt_destroy_the_bombers"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Volcano - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "gaspar_gold_bolt_volcano"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "1587",
+                        "y": "1084",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Get the pilot helmet - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "gaspar_get_the_pilot_helmet"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Gaspar",
+                "x": "2388",
+                "y": "702",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Gaspar",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7,500",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "1099",
+                        "y": "197",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Destroy the Bombers",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Volcano",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gaspar",
+                        "x": "1587",
+                        "y": "1084",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Get the pilot helmet",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Gaspar",
+                "x": "2388",
+                "y": "702",
+                "size": 6
+            }
+        ]
+    }
+]

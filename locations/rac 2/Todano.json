@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Todano",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["todanocoordinates"],
+    "children": [
+      {
+        "name": "Stuart Zurgo",
+        "access_rules": ["$todano_stuart_zurgo_area"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          },
+          {
+            "name": "Armor Magnetizer",
+            "access_rules": ["qwarkstatuette"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Todano",
+            "x": "170",
+            "y": "300"
+          }
+        ]
+      },
+      {
+        "name": "End of Tour",
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Todano",
+            "x": "740",
+            "y": "623"
+          }
+        ]
+      },
+      {
+        "name": "Spiderbot Conveyor",
+        "access_rules": ["$todano_spiderbot_conveyor_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Todano",
+            "x": "755",
+            "y": "200"
+          }
+        ]
+      },
+      {
+        "name": "Rocket Silo",
+        "access_rules": ["$todano_rocket_silo_nt"],
+        "sections": [
+          {
+            "name": "Nanotech Boost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Todano",
+            "x": "242",
+            "y": "523"
+          }
+        ]
+      },
+      {
+        "name": "Facility Interior",
+        "access_rules": ["$todano_facility_interior"],
+        "sections": [
+          {
+            "name": "Sheepinator"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Todano",
+            "x": "710",
+            "y": "410"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Search Rocket Silo",
+        "access_rules": ["$todano_search_rocket_silo"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Todano",
+        "x": "460",
+        "y": "688"
+      }
+    ]
+  }
+]

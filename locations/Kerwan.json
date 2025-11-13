@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Kerwan - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "2,500 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "kerwan_vendor_2,500"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "438",
+                        "y": "1277",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Underpass - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "kerwan_gold_bolt_underpass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Train Station - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "kerwan_gold_bolt_train_station"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fitness Course Tower - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "kerwan_gold_bolt_fitness_course_tower"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "2420",
+                        "y": "103",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Fitness Course - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "kerwan_fitness_course"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Al's Roboshack - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "kerwan_al's_roboshack"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Ride the Robot Train - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "kerwan_ride_the_robot_train"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Kerwan",
+                "x": "1157",
+                "y": "1959",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Kerwan",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "2,500",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "438",
+                        "y": "1277",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Underpass",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Train Station",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fitness Course Tower",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kerwan",
+                        "x": "2420",
+                        "y": "103",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Fitness Course",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Al's Roboshack",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Ride the Robot Train",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Kerwan",
+                "x": "1157",
+                "y": "1959",
+                "size": 6
+            }
+        ]
+    }
+]

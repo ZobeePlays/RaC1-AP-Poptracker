@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Boldan",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["boldancoordinates"],
+    "children": [
+      {
+        "name": "Spiderbot Alley",
+        "access_rules": ["$boldan_spiderbot_alley_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Boldan",
+            "x": "502",
+            "y": "472"
+          }
+        ]
+      },
+      {
+        "name": "Floating Platform",
+        "access_rules": ["$boldan_floating_platform"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Boldan",
+            "x": "515",
+            "y": "615"
+          }
+        ]
+      },
+      {
+        "name": "Upper Dome",
+        "access_rules": ["$boldan_find_fizzwidget"],
+        "sections": [
+          {
+            "name": "Find Fizzwidget"
+          },
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Boldan",
+            "x": "687",
+            "y": "525"
+          }
+        ]
+      },
+      {
+        "name": "Fountain",
+        "access_rules": ["$boldan_fountain_nt"],
+        "sections": [
+          {
+            "name": "Nanotech Boost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Boldan",
+            "x": "410",
+            "y": "471"
+          }
+        ]
+      }
+    ]
+  }
+]

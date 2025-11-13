@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Gemlik - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Visibomb Hidden Tower - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "gemlik_gold_bolt_visibomb_hidden_tower"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gemlik",
+                        "x": "1697",
+                        "y": "1848",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Defeat Captain Quark - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "gemlik_defeat_captain_quark"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Gemlik",
+                "x": "2356",
+                "y": "487",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Gemlik",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Visibomb Hidden Tower",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Gemlik",
+                        "x": "1697",
+                        "y": "1848",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Defeat Captain Quark",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Gemlik",
+                "x": "2356",
+                "y": "487",
+                "size": 6
+            }
+        ]
+    }
+]

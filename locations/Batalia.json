@@ -1,0 +1,204 @@
+[
+    {
+        "name": "Batalia - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "10,000 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "batalia_vendor_10,000"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "572",
+                        "y": "507",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Cliffside - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "batalia_gold_bolt_cliffside"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "House Roof - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "batalia_gold_bolt_house_roof"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "841",
+                        "y": "451",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Ride the grindrail - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "batalia_ride_the_grindrail"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Commando - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "batalia_commando"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Shoot down the Bombers - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "batalia_shoot_down_the_bombers"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Batalia",
+                "x": "2011",
+                "y": "2490",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Batalia",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "10,000",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "572",
+                        "y": "507",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cliffside",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "House Roof",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Batalia",
+                        "x": "841",
+                        "y": "451",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Ride the grindrail",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Commando",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Shoot down the Bombers",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Batalia",
+                "x": "2011",
+                "y": "2490",
+                "size": 6
+            }
+        ]
+    }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Yeedil",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["yeedilcoordinates"],
+    "children": [
+      {
+        "name": "Bridge Grindrail",
+        "access_rules": ["$yeedil_bridge_grindrail_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yeedil",
+            "x": "560",
+            "y": "650"
+          }
+        ]
+      },
+      {
+        "name": "Tractor Pillar",
+        "access_rules": ["$yeedil_tractor_pillar_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yeedil",
+            "x": "520",
+            "y": "260"
+          }
+        ]
+      },
+      {
+        "name": "Protopet",
+        "access_rules": ["$yeedil_defeat_mutated_protopet"],
+        "sections": [
+          {
+            "name": "Victory"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yeedil",
+            "x": "340",
+            "y": "280"
+          }
+        ]
+      }
+    ]
+  }
+]

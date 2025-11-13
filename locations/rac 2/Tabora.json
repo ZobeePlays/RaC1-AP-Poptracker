@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Tabora",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["taboracoordinates,swingshot,heli-pack"],
+    "children": [
+      {
+        "name": "Underground Mines",
+        "access_rules": ["thermanator"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tabora",
+            "x": "528",
+            "y": "812"
+          }
+        ]
+      },
+      {
+        "name": "Underground Mine",
+        "access_rules": ["$tabora_underground_mines_glider"],
+        "sections": [
+          {
+            "name": "Glider"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tabora",
+            "x": "410",
+            "y": "730"
+          }
+        ]
+      },
+      {
+        "name": "Canyon Glide",
+        "access_rules": ["$tabora_canyon_glide_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tabora",
+            "x": "382",
+            "y": "821"
+          }
+        ]
+      },
+      {
+        "name": "Northeast Desert",
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tabora",
+            "x": "670",
+            "y": "140"
+          }
+        ]
+      },
+      {
+        "name": "Canyon Glide Pillar",
+        "access_rules": ["$tabora_canyon_glide_pillar_nt"],
+        "sections": [
+          {
+            "name": "Nanotech Boost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tabora",
+            "x": "584",
+            "y": "753"
+          }
+        ]
+      },
+      {
+        "name": "OmniWrench 10000",
+        "sections": [
+          {
+            "name": "Wrench pickup"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tabora",
+            "x": "689",
+            "y": "953"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Meet Angela"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Tabora",
+        "x": "657",
+        "y": "748"
+      }
+    ]
+  }
+]

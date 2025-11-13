@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Dobbo",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["dobbocoordinates"],
+    "children": [
+      {
+        "name": "Spiderbot Room",
+        "access_rules": ["$dobbo_spiderbot_room_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dobbo",
+            "x": "785",
+            "y": "541"
+          }
+        ]
+      },
+      {
+        "name": "Facility Glide End",
+        "access_rules": ["$dobbo_facility_glide_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dobbo",
+            "x": "244",
+            "y": "408"
+          }
+        ]
+      },
+      {
+        "name": "Facility Glide Beginning",
+        "access_rules": ["$dobbo_facility_glide_nt"],
+        "sections": [
+          {
+            "name": "Nanotech Boost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dobbo",
+            "x": "449",
+            "y": "163"
+          }
+        ]
+      },
+      {
+        "name": "Facility Terminal",
+        "access_rules": ["$dobbo_facility_terminal"],
+        "sections": [
+          {
+            "name": "Facility Terminal"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dobbo",
+            "x": "434",
+            "y": "71"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Defeat Thug Leader",
+        "access_rules": ["$dobbo_defeat_thug_leader"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Dobbo",
+        "x": "777",
+        "y": "264"
+      }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Oozla",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["oozlacoordinates"],
+    "children": [
+      {
+        "name": "Outside Megacorp Store",
+        "sections": [
+          {
+            "name": "Dynamo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oozla",
+            "x": "366",
+            "y": "224"
+          }
+        ]
+      },
+      {
+        "name": "Megacorp Scientist",
+        "sections": [
+          {
+            "name": "Tractor Beam"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oozla",
+            "x": "279",
+            "y": "869"
+          }
+        ]
+      },
+      {
+        "name": "Tractor Puzzle",
+        "access_rules": ["$oozla_tractor_puzzle_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oozla",
+            "x": "281",
+            "y": "925"
+          }
+        ]
+      },
+      {
+        "name": "Swamp Ruins",
+        "access_rules": ["$oozla_swamp_ruins_pp"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oozla",
+            "x": "715",
+            "y": "575"
+          }
+        ]
+      },
+      {
+        "name": "Swamp Monster II",
+        "access_rules": ["dynamo,gravityboots"],
+        "sections": [
+          {
+            "name": "Box Breaker"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oozla",
+            "x": "753",
+            "y": "180"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "End of Store Cutscene",
+        "access_rules": ["$oozla_store_end"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Oozla",
+        "x": "419",
+        "y": "95"
+      }
+    ]
+  }
+]

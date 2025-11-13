@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Maktar",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["maktarnebulacoordinates"],
+    "children": [
+      {
+        "name": "Arena Challenge",
+        "sections": [
+          {
+            "name": "Electrolyzer"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Maktar",
+            "x": "443",
+            "y": "378"
+          }
+        ]
+      },
+      {
+        "name": "Jamming Array",
+        "access_rules": ["tractorbeam"],
+        "sections": [
+          {
+            "name": "Deactivate Jamming Array"
+          },
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Maktar",
+            "x": "630",
+            "y": "810"
+          }
+        ]
+      },
+      {
+        "name": "Crane",
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Maktar",
+            "x": "639",
+            "y": "115"
+          }
+        ]
+      },
+      {
+        "name": "Photo Booth",
+        "access_rules": ["$maktar_photo_booth"],
+        "sections": [
+          {
+            "name": "Photo Booth"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Maktar",
+            "x": "449",
+            "y": "575"
+          }
+        ]
+      }
+    ]
+  }
+]

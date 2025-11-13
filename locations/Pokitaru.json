@@ -1,0 +1,190 @@
+[
+    {
+        "name": "Pokitaru - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "7,500 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "pokitaru_vendor_7,500"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "495",
+                        "y": "1250",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Waterfalls - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "pokitaru_gold_bolt_waterfalls"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "1534",
+                        "y": "722",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Pilot the Ship - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "pokitaru_pilot_the_ship"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Trade Raritanium - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "pokitaru_trade_raritanium"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Bob's Shop - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "pokitaru_bob's_shop"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Pokitaru",
+                "x": "317",
+                "y": "2144",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Pokitaru",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7,500",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "495",
+                        "y": "1250",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Waterfalls",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Pokitaru",
+                        "x": "1534",
+                        "y": "722",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Pilot the Ship",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Trade Raritanium",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Bob's Shop",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Pokitaru",
+                "x": "317",
+                "y": "2144",
+                "size": 6
+            }
+        ]
+    }
+]

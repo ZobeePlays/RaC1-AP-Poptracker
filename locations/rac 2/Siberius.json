@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Siberius",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["siberiuscoordinates"],
+    "children": [
+      {
+        "name": "Flamebot Ledge",
+        "access_rules": ["$siberius_flamebot_ledge_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Siberius",
+            "x": "467",
+            "y": "904"
+          }
+        ]
+      },
+      {
+        "name": "Fenced Area",
+        "access_rules": ["$siberius_fenced_area_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Siberius",
+            "x": "582",
+            "y": "782"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Defeat Thief",
+        "access_rules": ["swingshot"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Siberius",
+        "x": "294",
+        "y": "165"
+      }
+    ]
+  }
+]

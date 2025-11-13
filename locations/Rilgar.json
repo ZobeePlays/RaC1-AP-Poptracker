@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Rilgar - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "7,500 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "rilgar_vendor_7,500"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "1852",
+                        "y": "1467",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Shady Salesman - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "150,000 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "rilgar_shady_salesman_150,000"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "1745",
+                        "y": "1057",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Maze - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "rilgar_gold_bolt_maze"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sewer Cave - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "rilgar_gold_bolt_sewer_cave"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "310",
+                        "y": "2456",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Locate Captain Quark - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "rilgar_locate_captain_quark"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Win the hoverboard race - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "rilgar_win_the_hoverboard_race"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Rilgar",
+                "x": "879",
+                "y": "575",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Rilgar",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7,500",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "1852",
+                        "y": "1467",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Shady Salesman",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "150,000",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "1745",
+                        "y": "1057",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Maze",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sewer Cave",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rilgar",
+                        "x": "310",
+                        "y": "2456",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Locate Captain Quark",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Win the hoverboard race",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Rilgar",
+                "x": "879",
+                "y": "575",
+                "size": 6
+            }
+        ]
+    }
+]

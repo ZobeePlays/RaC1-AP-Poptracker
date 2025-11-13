@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Smolg",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["smolgcoordinates"],
+    "children": [
+      {
+        "name": "Distribution Facility End",
+        "access_rules": ["$smolg_distribution_facility_end"],
+        "sections": [
+          {
+            "name": "Hypnomatic Part"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Smolg",
+            "x": "397",
+            "y": "643"
+          }
+        ]
+      },
+      {
+        "name": "Floating Platform",
+        "access_rules": ["$smolg_floating_platform_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Smolg",
+            "x": "444",
+            "y": "264"
+          }
+        ]
+      },
+      {
+        "name": "Warehouse",
+        "access_rules": ["$smolg_warehouse_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Smolg",
+            "x": "68",
+            "y": "484"
+          }
+        ]
+      },
+      {
+        "name": "Balloon Transmission",
+        "access_rules": ["$smolg_balloon_transmission"],
+        "sections": [
+          {
+            "name": "Balloon Transmission"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Smolg",
+            "x": "144",
+            "y": "379"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Mutant Crab",
+        "access_rules": ["$smolg_mutant_crab"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Smolg",
+        "x": "628",
+        "y": "584"
+      }
+    ]
+  }
+]

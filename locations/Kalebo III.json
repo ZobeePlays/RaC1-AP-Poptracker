@@ -1,0 +1,176 @@
+[
+    {
+        "name": "Kalebo III - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Grindrail - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Helpdesk - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "kalebo_iii_grindrail_helpdesk"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "2218",
+                        "y": "460",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "On the Grindrail - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "kalebo_iii_gold_bolt_on_the_grindrail"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Employee break room - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "kalebo_iii_gold_bolt_employee_break_room"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "148",
+                        "y": "1043",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Win the hoverboard race - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "kalebo_iii_win_the_hoverboard_race"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Kalebo III",
+                "x": "738",
+                "y": "328",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Kalebo III",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Grindrail",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Helpdesk",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "2218",
+                        "y": "460",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "On the Grindrail",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Employee break room",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kalebo III",
+                        "x": "148",
+                        "y": "1043",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Win the hoverboard race",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Kalebo III",
+                "x": "738",
+                "y": "328",
+                "size": 6
+            }
+        ]
+    }
+]

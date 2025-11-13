@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Feltzin",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["feltzinsystemcoordinates"],
+    "children": [
+      {
+        "name": "Feltzin",
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          },
+          {
+            "name": "Nanotech Boost"
+          },
+          {
+            "name": "Defeat Thug Ships"
+          },
+          {
+            "name": "Destroy Space Wasps",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Fight Ace Thug Ships",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Race Through the Asteroids",
+            "visibility_rules": ["spaceship_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "783",
+            "y": "157"
+          }
+        ]
+      }
+    ]
+  }
+]

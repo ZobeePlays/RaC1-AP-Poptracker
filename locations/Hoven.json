@@ -1,0 +1,204 @@
+[
+    {
+        "name": "Hoven - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "7,500 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "hoven_vendor_7,500"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "417",
+                        "y": "1762",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "in the Water Cave - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "hoven_gold_bolt_in_the_water_cave"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Moving wall jump - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "hoven_gold_bolt_moving_wall_jump"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "585",
+                        "y": "2280",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Destroy the Planetbuster - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "hoven_destroy_the_planetbuster"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Edwina's Shop - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "hoven_edwina's_shop"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Talk to the Miner - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "hoven_talk_to_the_miner"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Hoven",
+                "x": "580",
+                "y": "1047",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Hoven",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "7,500",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "417",
+                        "y": "1762",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "in the Water Cave",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Moving wall jump",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hoven",
+                        "x": "585",
+                        "y": "2280",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Destroy the Planetbuster",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Edwina's Shop",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Talk to the Miner",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Hoven",
+                "x": "580",
+                "y": "1047",
+                "size": 6
+            }
+        ]
+    }
+]

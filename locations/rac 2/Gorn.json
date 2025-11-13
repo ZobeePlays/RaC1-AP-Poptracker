@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Gorn",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["gorncoordinates"],
+    "children": [
+      {
+        "name": "Gorn",
+        "sections": [
+          {
+            "name": "Defeat Thug Fleet"
+          },
+          {
+            "name": "Platinum Bolt"
+          },
+          {
+            "name": "Fight the Bandits",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Defeat the Ghost Ship",
+            "visibility_rules": ["spaceship_on"]
+          },
+          {
+            "name": "Race Through the Docking Bays",
+            "visibility_rules": ["spaceship_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Bogon",
+            "x": "532",
+            "y": "158"
+          }
+        ]
+      }
+    ]
+  }
+]

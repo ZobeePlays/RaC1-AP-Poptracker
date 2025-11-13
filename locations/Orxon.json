@@ -1,0 +1,270 @@
+[
+    {
+        "name": "Orxon - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Vendor - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "15,000 - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "orxon_vendor_15,000"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "536",
+                        "y": "154",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Clank - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Traverse the Wilderness - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "orxon_clank_traverse_the_wilderness"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Search the Labs - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "orxon_clank_search_the_labs"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "425",
+                        "y": "970",
+                        "size": 12
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Return to the Clank section - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "orxon_gold_bolt_return_to_the_clank_section"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Long Tunnel - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "orxon_gold_bolt_long_tunnel"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "2459",
+                        "y": "239",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Chase the Infobot - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "orxon_chase_the_infobot"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Buy the premium nanotech - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "orxon_buy_the_premium_nanotech"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Buy the ultra nanotech - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "orxon_buy_the_ultra_nanotech"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Orxon",
+                "x": "176",
+                "y": "1475",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Orxon",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Vendor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "15,000",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "536",
+                        "y": "154",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Clank",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Traverse the Wilderness",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Search the Labs",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "425",
+                        "y": "970",
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Return to the Clank section",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Long Tunnel",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Orxon",
+                        "x": "2459",
+                        "y": "239",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Chase the Infobot",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Buy the premium nanotech",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Buy the ultra nanotech",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Orxon",
+                "x": "176",
+                "y": "1475",
+                "size": 6
+            }
+        ]
+    }
+]

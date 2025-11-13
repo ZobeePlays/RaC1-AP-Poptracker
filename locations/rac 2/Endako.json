@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Endako",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["endakocoordinates"],
+    "children": [
+      {
+        "name": "Clank's Apartment",
+        "sections": [
+          {
+            "name": "Swingshot"
+          },
+          {
+            "name": "Grindboots"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Endako",
+            "x": "816",
+            "y": "763"
+          }
+        ]
+      },
+      {
+        "name": "Ledge",
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Endako",
+            "x": "659",
+            "y": "566"
+          }
+        ]
+      },
+      {
+        "name": "Crane",
+        "access_rules": ["electrolyzer"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          },
+          {
+            "name": "Nanotech Boost",
+            "access_rules": ["infiltrator"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Endako",
+            "x": "168",
+            "y": "775"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Rescue Clank Heli-Pack",
+        "access_rules": ["electrolyzer"]
+      },
+      {
+        "name": "Rescue Clank Thruster-Pack",
+        "access_rules": ["electrolyzer"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Endako",
+        "x": "179",
+        "y": "533"
+      }
+    ]
+  }
+]

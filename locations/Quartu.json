@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Quartu - hint",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "{}"
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt - hint",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "Behind Clank's mother - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "quartu_gold_bolt_behind_clank's_mother"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Codebot door - hint",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "quartu_gold_bolt_codebot_door"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quartu",
+                        "x": "1476",
+                        "y": "1658",
+                        "size": 12
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Giant Clank Fight - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "quartu_giant_clank_fight"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Water Path - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "quartu_water_path"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "Clank's mother - hint",
+                "access_rules": [],
+                "visibility_rules": [
+                    "quartu_clank's_mother"
+                ],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Quartu",
+                "x": "2374",
+                "y": "1359",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Quartu",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Gold Bolt",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Behind Clank's mother",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Codebot door",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Quartu",
+                        "x": "1476",
+                        "y": "1658",
+                        "size": 6
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Giant Clank Fight",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Water Path",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            },
+            {
+                "name": "Clank's mother",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Quartu",
+                "x": "2374",
+                "y": "1359",
+                "size": 6
+            }
+        ]
+    }
+]

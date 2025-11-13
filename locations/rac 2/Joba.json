@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Joba",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["jobacoordinates"],
+    "children": [
+      {
+        "name": "Hoverbike Race",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "access_rules": ["swingshot"],
+        "sections": [
+          {
+            "name": "Charge Boots"
+          },
+          {
+            "name": "Nanotech Boost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Joba",
+            "x": "720",
+            "y": "720"
+          }
+        ]
+      },
+      {
+        "name": "Shady Salesman",
+        "access_rules": ["$joba_shady_salesman"],
+        "sections": [
+          {
+            "name": "Levitator",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Joba",
+            "x": "300",
+            "y": "323"
+          }
+        ]
+      },
+      {
+        "name": "Arena Battle",
+        "access_rules": ["$joba_arena_battle"],
+        "sections": [
+          {
+            "name": "Gravity Boots"
+          },
+          {
+            "name": "Infiltrator"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Joba",
+            "x": "560",
+            "y": "180"
+          }
+        ]
+      },
+      {
+        "name": "Hidden Cliff",
+        "access_rules": ["$joba_hidden_cliff_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Joba",
+            "x": "690",
+            "y": "490"
+          }
+        ]
+      },
+      {
+        "name": "Levitator Tower",
+        "access_rules": ["$joba_levitator_tower_pb"],
+        "sections": [
+          {
+            "name": "Platinum Bolt",
+            "access_rules": [],
+            "visibility_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Joba",
+            "x": "340",
+            "y": "300"
+          }
+        ]
+      },
+      {
+        "name": "Timed Dynamo Course",
+        "access_rules": ["$joba_timed_dynamo_nt"],
+        "sections": [
+          {
+            "name": "Nanotech Boost"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Joba",
+            "x": "660",
+            "y": "590"
+          }
+        ]
+      }
+    ]
+  }
+]

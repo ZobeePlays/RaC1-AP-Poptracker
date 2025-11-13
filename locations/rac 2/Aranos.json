@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Aranos",
+    "chest_unopened_img": "/images/items/close.png",
+    "chest_opened_img": "/images/items/open.png",
+    "access_rules": ["aranosprisoncoordinates,gravityboots,levitator,infiltrator"],
+    "children": [
+      {
+        "name": "Plumber",
+        "access_rules": ["$aranos_plumber"],
+        "sections": [
+          {
+            "name": "Qwark Statuette"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aranos",
+            "x": "366",
+            "y": "800"
+          }
+        ]
+      },
+      {
+        "name": "Under Ship",
+        "sections": [
+          {
+            "name": "Platinum Bolt",
+            "access_rules": ["$aranos_under_ship_pb"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aranos",
+            "x": "640",
+            "y": "550"
+          }
+        ]
+      },
+      {
+        "name": "OmniWrench 12000",
+        "sections": [
+          {
+            "name": "Wrench pickup",
+            "access_rules": ["$aranos_omniwrench_12000"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aranos",
+            "x": "648",
+            "y": "812"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": "Control Room",
+        "access_rules": ["$aranos_control_room"]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Aranos",
+        "x": "644",
+        "y": "458"
+      }
+    ]
+  }
+]
