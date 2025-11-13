@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Aridia"
                 ],
                 "sections": [
                     {
@@ -61,7 +61,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Batalia"
                 ],
                 "sections": [
                     {
@@ -104,7 +104,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Blarg"
                 ],
                 "sections": [
                     {
@@ -147,7 +147,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Fleet"
                 ],
                 "sections": [
                     {
@@ -182,7 +182,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Eudora"
                 ],
                 "sections": [
                     {
@@ -217,7 +217,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Gaspar"
                 ],
                 "sections": [
                     {
@@ -252,7 +252,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Gemlik"
                 ],
                 "sections": [
                     {
@@ -279,7 +279,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Hoven"
                 ],
                 "sections": [
                     {
@@ -322,7 +322,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "KaleboIII"
                 ],
                 "sections": [
                     {
@@ -357,7 +357,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Kerwan"
                 ],
                 "sections": [
                     {
@@ -404,7 +404,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Novalis"
                 ],
                 "sections": [
                     {
@@ -487,7 +487,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Oltanis"
                 ],
                 "sections": [
                     {
@@ -538,7 +538,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Orxon"
                 ],
                 "sections": [
                     {
@@ -589,7 +589,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Orxon"
                 ],
                 "sections": [
                     {
@@ -628,7 +628,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Orxon"
                 ],
                 "sections": [
                     {
@@ -667,7 +667,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Rilgar"
                 ],
                 "sections": [
                     {
@@ -710,7 +710,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Umbris"
                 ],
                 "sections": [
                     {
@@ -741,7 +741,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "Veldin"
                 ],
                 "sections": [
                     {
@@ -768,4 +768,5 @@
             }
         ]
     }
+
 ]
